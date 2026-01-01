@@ -1,8 +1,22 @@
 # INDIVIDUAL-ASSIGNMENT-602
+
+NAME: MOHAMMAD ZUL AMRO BIN ZAMRI
+
+STUDENT ID: 2024274416
+
+GROUP: CDCS2703A
+
+LECTURER’S NAME: MUHAMMAD ATIF BIN RAMLAN
+
+
+
 Project Background
 
 The purpose of this project is to develop a real-time chat application using Angular 20 as the frontend framework and Supabase as the backend service. The application is designed to allow users to authenticate using Google OAuth, join chat rooms, and exchange messages in real time. Supabase provides essential backend features such as authentication, database management, and real-time capabilities through its Realtime API, while Angular 20 offers a modern and efficient way to build responsive and dynamic user interfaces.
 This project demonstrates key concepts in modern web development, including secure authentication flows, route protection using Angular guards, and real-time data synchronization. It also emphasizes best practices for managing environment variables, implementing Row Level Security (RLS) policies for data protection, and ensuring scalability. By completing this project, the goal is to gain hands-on experience with integrating a frontend framework and a backend-as-a-service platform to build a functional, secure, and user-friendly application.
+
+
+
 
 
 
