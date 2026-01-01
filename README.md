@@ -1,10 +1,13 @@
 # INDIVIDUAL-ASSIGNMENT-602
 Project Background
+
 The purpose of this project is to develop a real-time chat application using Angular 20 as the frontend framework and Supabase as the backend service. The application is designed to allow users to authenticate using Google OAuth, join chat rooms, and exchange messages in real time. Supabase provides essential backend features such as authentication, database management, and real-time capabilities through its Realtime API, while Angular 20 offers a modern and efficient way to build responsive and dynamic user interfaces.
 This project demonstrates key concepts in modern web development, including secure authentication flows, route protection using Angular guards, and real-time data synchronization. It also emphasizes best practices for managing environment variables, implementing Row Level Security (RLS) policies for data protection, and ensuring scalability. By completing this project, the goal is to gain hands-on experience with integrating a frontend framework and a backend-as-a-service platform to build a functional, secure, and user-friendly application.
 
 
+
 DISCUSSION
+
 Working on the real-time chat application using Angular 20 and Supabase was an exciting and challenging experience that taught me a lot about modern web development. The main goal was to create a functional chat app that supports Google login, secure routing, and real-time messaging. At first, I thought it would be straightforward, but as I progressed, I realized how much planning and attention to detail was required to make everything work smoothly.
 The first step was setting up Angular 20. This version introduced new improvements that make development easier and faster. I focused on using Angular’s routing system to manage navigation and implemented route guards with CanActivate to ensure only authenticated users could access chat rooms. This was a simple but important feature because it added a layer of security to the app and prevented unauthorized access.
 Configuring Supabase was another big part of the project. I created tables for users and messages, enabled Google OAuth authentication, and applied Row Level Security (RLS) policies to protect data access. Setting up OAuth was tricky because the redirect URIs had to match exactly between Supabase and Angular. I spent time troubleshooting this issue, and it taught me how important it is to pay attention to small details. Managing environment variables securely was another challenge. I had to make sure sensitive keys were not exposed in the code or committed to GitHub.
