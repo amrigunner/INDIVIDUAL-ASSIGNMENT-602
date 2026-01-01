@@ -18,4 +18,5 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/login/login.component').then((com) => com.
         LoginComponent)
     },
+    
 ];
